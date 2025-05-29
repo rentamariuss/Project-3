@@ -1,0 +1,50 @@
+.contact {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.contact__box {
+  background: linear-gradient(to bottom, rgba(253, 245, 230, 1), #ffffff);
+  padding: 4rem 2rem;
+}
+
+.contact__title {
+  color: var(--clr-bg-header);
+  font-size: var(--size-4xl);
+  text-shadow: var(--text-shadow);
+  max-width: 20ch;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+}
+
+.contact__description {
+  max-width: 36ch;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */ 
+
+/* md */
+@media (min-width: 768px) {
+  .contact__title {
+    font-size: var(--size-5xl);
+  }
+
+  .contact__description {
+    font-size: var(--size-xl);
+  }
+}
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1280px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {} */ 
